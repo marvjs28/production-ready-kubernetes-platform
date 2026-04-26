@@ -1,9 +1,9 @@
 replicaCount: 2
 
 image:
-  repository: sre-demo-api
-  tag: local
-  pullPolicy: IfNotPresent
+  repository: ghcr.io/marvjs28/sre-demo-api
+  tag: latest
+  pullPolicy: Always
 
 service:
   type: ClusterIP
