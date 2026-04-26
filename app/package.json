@@ -1,0 +1,12 @@
+{
+  "name": "sre-demo-api",
+  "version": "1.0.0",
+  "description": "Simple Node.js API for Kubernetes/SRE portfolio project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
